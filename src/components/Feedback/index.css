@@ -1,0 +1,46 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  font-family: roboto;
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: 500;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.image {
+  width: 80px;
+  height: 80px;
+}
+.love-card {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
